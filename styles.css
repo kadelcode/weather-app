@@ -8,7 +8,7 @@ body {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: linear-gradient(130deg, #1c76ec, #7a6cff);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -26,10 +26,16 @@ input {
 
 button {
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:first-child {
+    background-color: #1c76ec;
 }
 
 @media only screen and (min-width: 1024px) {
     .container {
-        width: 600px;
+        width: 420px;
     }
 }
